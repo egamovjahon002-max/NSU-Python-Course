@@ -184,6 +184,103 @@ is_master_student = True
 # TODO:
 # Print the result of the following expressions:
 #
+# 
+print("Task 1 — Personal Information")
+
+name = input("Enter your name:  ")
+
+age = int(input("Enter your age:  "))
+
+print(f"Hello, {name}!")
+print(f"Next year you will be {age + 1} years old.")
+print()
+
+print("Task 2 — Rectangle")
+
+width = float(input("Enter width: "))
+
+height = float(input("Enter height: "))
+
+area = width * height
+
+perimeter = 2 * (width + height)
+
+print(f"Area: {area}")
+print(f"Perimeter: {perimeter}")
+
+print()
+
+
+print("Task 3 — Temperature Converter")
+
+celsius = float(input("Enter celsius temperatura: "))
+
+fahrenheit = celsius * 9 / 5 +  32
+
+print(f"{celsius}C = {fahrenheit}F")
+
+print()
+
+
+print("Task 4 — Purchase Calculator")
+
+quantity = int(input("Enter quantity: "))
+
+price = float(input("Enter price for one: "))
+
+total_price = quantity * price
+
+discounted = total_price * 0.10
+
+discounted_price = total_price - discounted
+
+print(f"Total price: {total_price}")
+print(f"Discounted price: {discounted_price}")
+
+print()
+
+
+print("Task 5 — Arithmetic Operators")
+
+a = 17
+b = 5
+
+print(f"a + b = {a + b}")
+print(f"a - b = {a - b}")
+print(f"a * b = {a * b}")
+print(f"a / b = {a / b}")
+print(f"a // b = {a // b}")
+print(f"a % b = {a % b}")
+print(f"a ** b = {a ** b}")
+
+print()
+
+
+
+print("Task 6 — Data Types")
+integer_value = 42
+float_value = 3.14
+complex_value = 2 + 3j
+taxt_value = "Python"
+boolean_value = True
+
+print(type(integer_value))
+print(type(float_value))
+print(type(complex_value))
+print(type(taxt_value))
+print(type(boolean_value))
+
+
+print()
+
+
+
+print("Task 7 — Comparisons and Boolean Logic")
+
+
+age = 22
+is_master_student = True
+
 # age >= 18
 # age < 30
 # age == 22
@@ -209,7 +306,9 @@ print("Task 8 — Python Collections")
 # Create:
 #
 # 1. A list containing three programming languages.
-# 2. A tuple containing three numbers.
+# 2. A tu 18
+# age < 30
+# ple containing three numbers.
 # 3. A set containing several city names.
 # 4. A dictionary describing a student with:
 #       name
