@@ -1,0 +1,3 @@
+Python stores text in files.
+Room 204 has 28 students.
+Read line 2 carefully.
